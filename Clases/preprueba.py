@@ -11,7 +11,7 @@ class Membresia:
             self._creditos = 1
         elif plan == "Pase10":
             self._creditos = 10
-        else:  # Ilimitado
+        else: 
             self._creditos = float('inf') 
         self.activa = True
         Membresia.creadas += 1
@@ -65,11 +65,9 @@ class Membresia:
         return True
 
     def congelar(self) -> None:
-        """Inactiva la membresía"""
         self.activa = False
 
     def reactivar(self) -> None:
-        """Reactiva la membresía"""
         self.activa = True
 
 m1 = Membresia("Juan", "Diario")

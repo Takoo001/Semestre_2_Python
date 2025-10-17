@@ -29,10 +29,6 @@ print(f"El nombre del tercer animal es {perro.nombre} y es un {perro.especie}")
 
 
 
-
-
-
-
 """ Recomendacion de orden de creacion,
 - Bloque de codigo
 - Atributos (Estado del objeto)
